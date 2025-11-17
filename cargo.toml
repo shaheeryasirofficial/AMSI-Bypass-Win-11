@@ -1,0 +1,7 @@
+[package]
+name = "amsi-bypass"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+windows = { version = "0.58", features = ["Win32_System_LibraryLoader", "Win32_System_Memory", "Win32_Foundation"] }
